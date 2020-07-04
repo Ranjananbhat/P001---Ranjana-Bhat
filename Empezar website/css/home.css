@@ -1,0 +1,91 @@
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 32px;
+  text-decoration: none;
+  font-size:31px;
+}
+
+ul.topnav li a:hover
+{background-color: black;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+ 
+ .r {
+ background-color:red;
+ }
+
+.c {
+ background-image:url("../image/c2.jpg");
+ 
+ }
+
+footer {
+ background-color:black;
+ padding:20px;
+ }
+ 
+ table th,td{
+ border:1px;
+ padding:10px;
+ }
+ 
+ .parallax {
+  background-image: url('../image/a3.png');
+  min-height: 450px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.p {
+  background-image: url("../image/a11.png");
+  min-height: 200px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blink {
+        animation: blink-animation 3s steps(5, start) infinite;
+        -webkit-animation: blink-animation 3s steps(5, start) infinite;
+		font-family: Impact, Charcoal, sans-serif;
+		text-shadow: 2px 2px;
+		font-size:20px;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+	  
+	  img {
+  border-radius: 20px;
+  padding: 5px;
+  
+} 
